@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="signup.js" defer></script>
+
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="singnup.html">signup</a></li>
+        <li><a href="login.html">login</a></li>
+        <li><button onclick="logout()" >login</button></li>
+    </ul>
+    <h2>signup</h2>
+    <form onsubmit="signup(event)" class="form">
+        <label> First Name:</label><input type="text" name="First">
+        <br>
+        <label> Last Name:</label><input type="text" name="Last">
+        <br>
+        <label>Email:</label><input type="email" name="email">
+        <br>
+        <label>passwrod:</label><input type="password" name="password">
+        <br>
+        <label>Photo:</label><input type="url" name="Photo">
+        <br>
+        <button>Sing up</button>
+    </form>
+
+</body>
+
+</html>
