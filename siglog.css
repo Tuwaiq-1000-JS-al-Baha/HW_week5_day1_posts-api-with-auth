@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+form,
+h2{
+    padding-top: 15%;
+}
+.nav-link{
+    color: white;
+}
