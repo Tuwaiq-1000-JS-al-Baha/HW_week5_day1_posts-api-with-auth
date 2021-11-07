@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(153, 152, 153);
+}
+
+.post-list {
+    border: 5px solid #333;
+    background-color: rgb(221, 203, 203);
+}
+
+.postitme {
+    border: 5px solid #333;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(168, 90, 145);
+    font-size: 30px;
+}
+
+.form-list {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    color: rgb(94, 89, 94);
+}
+
+button:hover {
+    color: rgb(228, 179, 228);
+    transition: 1s;
+}
+
+.form-2 {
+    text-align: center;
+    display: none;
+}
+
+.form-1 {
+    display: none;
+}
+
+.commentform {
+    display: none;
+    text-align: center;
+}
+
+nav ul {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.form {
+    text-align: center;
+    font-size: 30px;
+}

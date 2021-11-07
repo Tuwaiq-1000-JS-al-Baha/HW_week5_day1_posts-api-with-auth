@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post </title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">home</a> </li>
+            <li><a href="sign.html"> sign</a> </li>
+            <li><a href="longin.html">long in</a></li>
+            <li><button onclick="longout()"> logout</button></li>
+
+        </ul>
+
+    </nav>
+</body>
+<h1>API POST</h1>
+<h2>Add prodect: </h2>
+<form onsubmit="addpost(event)" class="form-list">
+    <label>Title:</label>
+    <input type="text" name="title">
+    <br>
+    <label>Body:</label>
+    <input type="text" name="body">
+    <br>
+    <label>Imag:</label>
+    <input type="url" name="image">
+    <br>
+    <p class="error-element"></p>
+    <button>Add here </button>
+</form>
+<h2>List of post:</h2>
+<div class="post-list">
+
+</div>
+</body>
+
+</html>
