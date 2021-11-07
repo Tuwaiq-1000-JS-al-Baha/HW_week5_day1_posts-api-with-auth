@@ -1,0 +1,21 @@
+.Postform {
+  display: none;
+}
+.addPost {
+  background-color: #deb887;
+  padding: 20px;
+  margin: 50px;
+}
+.addPost label {
+  margin: 20px;
+}
+.addPost input {
+  margin: 5px;
+}
+.addPost button {
+  padding: 10px;
+  margin: 10px;
+}
+.eidt-form-comment {
+  display: none;
+}
