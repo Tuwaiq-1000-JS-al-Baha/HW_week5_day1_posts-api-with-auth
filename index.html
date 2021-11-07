@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts API</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  
+   <!---->
+</head>
+<body>
+    
+        <ul>
+            <li><a href="index.html"></a>Home</li>
+            <li><a href="signIn.html">Sign In</a></li>
+            <li><a href="signUp.html">Sign Up</a></li>
+            <button class="logOut()">log Out</button>
+        </ul>
+    
+    <h1>Posts</h1>
+
+    <form onsubmit="addPosts(event)" class="add-form">
+        <p class="error-element"></p>
+        <label>Title</label>
+        <input type="text" name="title">
+         <br>
+        <label>Body</label>
+        <textarea name="body" cols="30" rows="3"></textarea>
+        <br>
+        <label>Image</label>
+        <input type="url" name="image">
+        <br>
+        <!-- <label>Owner</label>
+        <input type="text" name="owner"> -->
+        <br>
+        <button>Add Post</button>
+    </form>
+
+   <div class="posts-list">
+
+
+   </div>
+</body>
+</html>
+
+

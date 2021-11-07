@@ -1,0 +1,17 @@
+.error-item {
+    color:red;
+}
+
+.post-item {
+    background-color: sandybrown;
+    text-align: center;
+    margin: 20px;
+}
+
+.edit-form {
+    display: none;
+}
+
+.edit-formComment {
+    display: none;
+}
