@@ -1,0 +1,24 @@
+.editform{
+    display: none;
+}
+.form-comment-edit{
+    display: none;
+    align-items: center;
+    background-color: blue;
+
+}
+
+.allPosts{
+    
+    align-items: center;
+}
+
+.forminfo{
+    background-color: rgb(31, 31, 36);
+    text-align: center;
+
+}
+
+.form-comment-edit{
+    background-color: burlywood;
+}

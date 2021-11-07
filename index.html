@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post API</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./stayle.css">
+</head>
+<body>
+
+    <ul>
+        <li><a href="./index.html">home</a> </li>
+        <li><a href="./signup.html">sigup</a> </li>
+        <li><a href="./login.html">login</a> </li>
+      <li> <button onclick="logout()">logout</button></li>
+ 
+        
+        
+        </ul>
+    <h1>Add Posts : </h1>
+   
+        <form class="addform" onsubmit="btnadd(event)">
+            <label>Title: </label><input type="text" name="title">
+            <br>
+            <label>Body: </label><input type="text" name="body">
+            <br>
+            <!-- <label>Owner: </label><input type="text" name="owner"> -->
+            <br>
+            <label>Image: </label><input type="url" name="image">
+            <br>
+            <button type="submit">Add Posts</button>
+            
+        </form>
+
+    <div class="allPosts">
+
+    </div>
+
+
+</body>
+</html>
