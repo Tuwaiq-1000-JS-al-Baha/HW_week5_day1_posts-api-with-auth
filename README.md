@@ -1,14 +1,16 @@
-# HW_week5_day1_posts-api-with-auth
+# HW_week4_day4_posts_api
 
-using the new Posts API of postman
+using Posts API of postman
 
-- add sign up page
-- add login page
+Make a Posts website that:
 
-- you can:
-  - add post
-  - remove post
-  - edit post
-  - add comment
-  - delete comment
-  - edit comment
+- display the posts list
+- you can add a post
+- you can update a post
+- you can delete a post
+
+### Bonus:
+- you can display the comments of each post
+- you can add a comment to a post
+- you can edit a comment of a post
+- you can delete a comment of a post
