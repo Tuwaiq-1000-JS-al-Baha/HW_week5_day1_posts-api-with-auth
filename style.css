@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(221, 92, 161);
+    padding: 10px;
+    border: black;
+   text-align: center;
+
+}
+.post-form{
+    display: none;
+}
+.post-item{
+    background: rgb(240, 131, 189);
+    border: 1px solid black;
+}
+.edit-form-comment{
+    display: none;
+}
