@@ -1,0 +1,21 @@
+.posts-form{
+    display: none; 
+}
+.comment{
+    background: pink;
+    margin:  15px 0;
+}
+
+
+.postinfo{
+    background-color: gray;
+}
+.edit-form-comment {
+    display: none;
+}
+.edit-form {
+    display: none;
+}
+.post-item{
+    background-color: purple;
+}
