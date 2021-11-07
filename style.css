@@ -1,0 +1,15 @@
+.error-element {
+    color: red;
+}
+.post-item{
+    background-color: azure;
+    text-align: center;
+    margin: 20px;
+}
+.edit-form-comment{
+    display: none;
+}
+
+.post-form{
+    display: none;
+}
