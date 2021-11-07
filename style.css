@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.post-form{
+    display: none;
+   
+}
+/*************/
+h1, form{
+    text-align: center;
+}
+img{
+    width: 25%;
+    height: 200px;
+}
+.posts-list{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+gap: 1;
+
+
+
+}
+.post-info{
+    background-color: rgb(199, 190, 176);
+}
+.card-body a ,
+button {
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(115, 109, 121);
+    border: 3px solid white;
+    justify-content: space-between;
+}
+.card-body a:hover ,
+button:hover {
+background-color: rgb(151, 145, 153);
+}
+.nav-link{
+    color: white;
+}
+
+
+/**********/
+.post-com{
+display: none;
+}
+/***comment****/
+h1{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+.form-comment form{
+    background-color: rgb(28, 100, 100);
+}
+
+/*edit /*/
+
+.edit-form-comment{
+    display: none;
+}
