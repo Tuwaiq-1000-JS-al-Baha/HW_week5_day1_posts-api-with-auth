@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="singnup.html">Sign Up</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><button onclick="logout()">Logout</button></li>
+    </ul>
+    <h1>Add a Post:</h1>
+    <form onsubmit="addPost(event)" class="add-form">
+        <label>title:</label>
+        <input type="text" name="title">
+        <br>
+        <label>image:</label>
+        <input type="url" name="image">
+        <br>
+        <label>body:</label>
+        <textarea name="body" cols="30" rows="3"></textarea>
+        <br>
+    
+        <button>Add Post</button>
+    </form>
+
+
+<p class="error-element"></p>
+    </form>
+<h1>posts:</h1>
+    <div class="list-post">
+
+
+
+    </div>
+
+</body>
+
+</html>
