@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="hsseproject.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="index.html">Sign up</a></li>
+     <li><a href="index.html">Login</a></li>
+     <li><button onclick="logout()">Logout</button></li>
+
+
+
+
+
+    </ul>
+    <h1>Add a post:</h1>
+    <form onsubmit="addpost(event)" class="add-form">
+        <label>Title:</label>
+        <input type="text" name="title">
+        <br>
+        <label>Body:</label>
+        <textarea name="body" cols="30" rows="3"></textarea>
+        <br>
+        <label>Image:</label>
+        <input type="url" name="image">
+        <br>
+        <label>Owner:</label>
+        <input type="text" name="owner">
+        <br>
+        <p class="error-element"></p>
+        <button>Add post</button>
+      </form>
+              <h1>posts:</h1>
+     <div class="posts-list">
+
+    </div>
+    
+</body>
+</html>
