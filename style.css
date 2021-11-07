@@ -1,0 +1,22 @@
+.editform {
+    display: none;
+}
+.confirm-form {
+    display: none;
+}
+.all-items {
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style: none;
+}
+.addform {
+    text-align: center;
+}
+.h1-class {
+    text-align: center;
+}
+.comment-item {
+    background-color:coral;
+}
