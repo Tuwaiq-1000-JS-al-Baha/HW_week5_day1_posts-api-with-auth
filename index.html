@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MY POSTES</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scroit.js" defer></script>
+</head>
+
+<body>
+
+
+
+    <ul class="navBar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sign.html">Sign up</a></li>
+        <li><a href="login.html">Log in</a></li>
+        <li><button onclick="logout()">Logout</button></li>
+    </ul>
+
+    <h1>Posts website</h1>
+
+
+    <form onsubmit="addPost(event)" class="form-add">
+        <label>title:</label>
+        <input type="text" name="title"> </br>
+        <label>image:</label>
+        <input type="url" name="image"> </br>
+        <label>body:</label>
+        <textarea name="body" cols="30" rows="10"></textarea> </br>
+        <p class="error-element"></p>
+        <button>Add</button>
+    </form>
+    <br>
+    <div class="post-item">
+    </div>
+</body>
+
+</html>

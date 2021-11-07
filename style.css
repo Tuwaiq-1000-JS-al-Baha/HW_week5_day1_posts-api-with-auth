@@ -1,0 +1,38 @@
+.post-item{
+    background-color: rgb(243, 217, 221);
+    border: 2px solid rgb(182, 79, 79);
+    text-align: center;
+    margin: 20px;
+}
+
+.post-form{
+    display: none;
+}
+
+.comment{
+    margin: 15px 0;
+}
+
+.edit-form{
+    display: none;
+}
+
+.edit-form-comment{
+    display: none;
+}
+
+.navBar{
+    text-align: center;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+.form-add{
+    text-align: center;
+}
