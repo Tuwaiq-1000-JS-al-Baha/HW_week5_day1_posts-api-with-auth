@@ -1,0 +1,18 @@
+.error-element{
+    color: red;
+}
+
+.post-item {
+    background-color: rgba(192, 132, 169, 0.24);
+  
+
+}
+body{
+    background-color:rgb(199, 129, 143);
+}
+.edit-form {
+    display: none;
+}
+.edit-form-Comment{
+    display: none;
+}
