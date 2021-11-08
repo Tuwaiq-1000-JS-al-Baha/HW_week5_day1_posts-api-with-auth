@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posts</title>
+    <link rel="stylesheet" href="posts.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="posts.js" defer></script>
+</head>
+
+<body>
+
+
+    <ul>
+        <li> <a href="posts.html">home</a></li>
+        <li><a href="signup.html">signup</a></li>
+        <li><a href="login.html">login</a></li>
+        <button onclick="logout()">Logout</button>
+        
+            </ul>
+
+
+    <h1> Add a Posts</h1>
+    <form onsubmit="addPosts(event)" class="formAdd">
+        <label>Title:</label>
+        <input type="text" name="title">
+        <br>
+        <label>Body:</label>
+        <textarea name="body" cols="30" rows="3"></textarea>
+        <br>
+        
+        <label>Image:</label>
+        <input type="url" name="image">
+        <br>
+        <p class="error-element"></p>
+        <button>Add Posts</button>
+
+    </form>
+
+    <h1>posts</h1>
+
+    <div class="PostList">
+
+
+    </div>
+
+
+
+
+
+
+</body>
