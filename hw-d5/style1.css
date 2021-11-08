@@ -1,0 +1,24 @@
+.error-element{
+color: brown;
+
+}
+.post-item{
+
+    background-color: rgba(0, 255, 255, 0.61);
+    text-align: center;
+    margin: 20px;
+}
+.post-item form {
+
+    display: none;
+}
+.comment {
+
+
+    background-color: bisque;
+    margin: 15px;
+}
+.edit-form-comment{
+
+    display: none;
+}
