@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST with put post edit delete and comment</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="index.html">sign up</a></li>
+    <li><a href="index.html">log in</a></li>
+    <li><button onclick="logout()">logout</button></li>
+</ul>
+
+    <h1>Add a Post:</h1>
+    <form onsubmit="addPost(event)" class="add-form">
+        <label>title:</label>
+        <input type="text" name="title">
+        <br>
+        <label>image:</label>
+        <input type="url" name="image">
+        <br>
+        <label>body:</label>
+        <textarea name="body" cols="30" rows="3"></textarea>
+        <br>
+        <label>owner:</label>
+        <input type="text" name="owner">
+        <br>
+        <button>Add Post</button>
+
+
+        <p class="error-element"></p>
+    </form>
+<h1>posts:</h1>
+    <div class="list-post">
+    </div>
+</body>
+</html>

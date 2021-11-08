@@ -1,0 +1,14 @@
+.error-element{
+    color: red;
+}
+.post-item{
+    background-color: rgb(201, 57, 57);
+    text-align: center;
+    margin: 30px;
+}
+.edit-form{
+    display: none;
+}
+.edit-form-comment{
+    display: none;
+}
