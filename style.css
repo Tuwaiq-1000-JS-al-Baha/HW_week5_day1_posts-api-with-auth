@@ -1,0 +1,12 @@
+
+body{
+    background-color: rgb(223, 203, 178);
+}.post-form{
+    display: none;
+}
+.comment{
+background-color: rgba(212, 212, 40, 0.726);
+}
+.edit-form-comment{
+    display: none;
+}
