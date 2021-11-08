@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(53, 66, 59);
+    text-align: center;
+  }
+
+ 
+
+.post-item{
+    background-color: rgb(158, 173, 168);
+    border: 1px solid black;
+    
+}
+.post-form{
+    display: none;
+    
+    }
+    .edit-form-comment{
+      display: none;
+    }
