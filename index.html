@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="addPost(event)" class="addPost">
+
+        <label>Title:</label><input type="text" name="title">
+        <br>
+        <label>Body:</label><input type="text" name="body">
+        <br>
+        <!-- <label>owner:</label><input type="number" name="owner">
+        <br> -->
+        <label>Image:</label><input type="url" name="image">
+        <br>
+        <button type="submit">Add Posts</button>
+
+    </form>
+
+    <h1>Products:</h1>
+    <div class="posts-list">
+
+    </div>  
+</body>
+</html>
